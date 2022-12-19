@@ -6,6 +6,8 @@ if (action.type === "INCREMENT") {
     return state + 1;
 } else if (action.type === "DECREMENT") {
     return state - 1;
+} else if (action.type === "INSERT") {
+    return state = action.value;
 } else {
     return state;
 }

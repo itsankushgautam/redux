@@ -9,3 +9,10 @@ export const decNumber = () => {
         type: 'DECREMENT'
     }
 }
+
+export const insertNumber = (value) => {
+    return {
+        type: 'INSERT',
+        value: parseInt(value)
+    }
+}
